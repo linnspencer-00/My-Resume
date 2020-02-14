@@ -65,7 +65,6 @@ nav{
     padding-left:175px;
     padding-right: 175px;
     margin-top: 25px;
-    margin-bottom: 10px;
     letter-spacing: 1px;
 }
 
@@ -82,8 +81,21 @@ body ul{
     list-style-type: disc;
 }
 
-.job-box{
-    padding-top: 15px;
-    padding-bottom: 20px;
-    color: white;
+.row{
+  color: white;
+}
+.column{
+  color: white;
+  float: left;
+  width: 50%;
+  padding-left: 200px;
+}
+
+.job-box h1{
+  text-align:
+  color: white;
+}
+
+.job-box ol{
+  color: white;
 }
