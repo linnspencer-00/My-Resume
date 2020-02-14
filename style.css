@@ -70,10 +70,12 @@ nav{
 
 body h1{
     text-align: center;
+    color: white;
 }
 body ol{
     padding-left: 175px;
     list-style-type: none;
+    color: white;
 }
 
 body ul{
@@ -81,21 +83,29 @@ body ul{
     list-style-type: disc;
 }
 
-.row{
+body p{
   color: white;
+  text-align:center;
+}
+
+.skills-box{
+  padding-bottom: 20px;
+}
+.row{
+  display: flex;
+    padding-left: 200px;
 }
 .column{
   color: white;
-  float: left;
-  width: 50%;
-  padding-left: 200px;
+  flex: 10%
 }
 
 .job-box h1{
-  text-align:
+  text-align: center;
   color: white;
 }
 
 .job-box ol{
   color: white;
+  padding-bottom: 20px;
 }
