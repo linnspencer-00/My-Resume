@@ -9,22 +9,32 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: transparent;
+    background-color: gray;
     height: 75px;
-    position: relative;
+    font-family: Helvetica;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 10px;
+}
+
+.top h4{
+  color: white;
+  text-decoration: inherit;
+  text-transform: uppercase;
 }
 
 .logo{
     color: white;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .nav-links{
     display: flex;
     justify-content: space-around;
-    width: 30%;
+    width: 50%;
 }
 
 .nav-links li{
@@ -38,7 +48,7 @@ nav{
 .nav-links a{
     color: white;
     letter-spacing: 2px;
-    font-size: 25px;
+    font-size: 20px;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -53,11 +63,12 @@ nav{
     box-sizing: border-box;
     color: whitesmoke;
     padding: 1%;
-    margin-top: 20px;
+    margin-top: 70px;
+    font-family: Helvetica;
 }
 .about-box h1{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     letter-spacing: 1px;
 }
 .about-box p{
@@ -90,6 +101,7 @@ body p{
 
 .skills-box{
   padding-bottom: 20px;
+  font-family: Helvetica;
 }
 .row{
   display: flex;
@@ -100,6 +112,9 @@ body p{
   flex: 10%
 }
 
+.job-box{
+  font-family: Helvetica
+}
 .job-box h1{
   text-align: center;
   color: white;
