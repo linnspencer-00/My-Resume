@@ -125,7 +125,9 @@ body p{
   padding-bottom: 20px;
 }
 
-.education{
+.education-box{
+  color: white;
+  padding-left: 175px;
   padding-top: 30px;
   padding-bottom: 30px;
 }
